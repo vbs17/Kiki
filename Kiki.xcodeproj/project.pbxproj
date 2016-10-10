@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		01872E850464FC4E91D89CD6 /* Pods_Kiki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF5792DD1389A2E725A1068 /* Pods_Kiki.framework */; };
-		B071D17F1DAB4039008A5039 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B071D17E1DAB4039008A5039 /* GoogleService-Info.plist */; };
 		B071D1811DAB40BB008A5039 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = B071D1801DAB40BB008A5039 /* Const.swift */; };
 		B071D1A91DAB501F008A5039 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1A81DAB501F008A5039 /* libc++.tbd */; };
 		B071D1AB1DAB5029008A5039 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1AA1DAB5029008A5039 /* libz.tbd */; };
@@ -29,6 +28,7 @@
 		B071D1D51DAB6F25008A5039 /* AdobeCreativeSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1D11DAB6EA3008A5039 /* AdobeCreativeSDKCore.framework */; };
 		B071D1D61DAB6F25008A5039 /* AdobeCreativeSDKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1D11DAB6EA3008A5039 /* AdobeCreativeSDKCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B071D1D81DAB6F29008A5039 /* AdobeCreativeSDKImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1D21DAB6EA3008A5039 /* AdobeCreativeSDKImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B07CEC8F1DAB747D00CF32A4 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = B07CEC8E1DAB747D00CF32A4 /* GoogleService-Info (1).plist */; };
 		B0A58D061DAB3A850004F037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A58D051DAB3A850004F037 /* AppDelegate.swift */; };
 		B0A58D081DAB3A850004F037 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A58D071DAB3A850004F037 /* ViewController.swift */; };
 		B0A58D0B1DAB3A850004F037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A58D091DAB3A850004F037 /* Main.storyboard */; };
@@ -61,7 +61,6 @@
 		3699FD52B969DF7B40CF38DC /* Pods-Kiki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kiki.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kiki/Pods-Kiki.release.xcconfig"; sourceTree = "<group>"; };
 		62548AD91A23C90871CC74C5 /* Pods-Kiki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kiki.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kiki/Pods-Kiki.debug.xcconfig"; sourceTree = "<group>"; };
 		8AF5792DD1389A2E725A1068 /* Pods_Kiki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kiki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B071D17E1DAB4039008A5039 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B071D1801DAB40BB008A5039 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		B071D1A81DAB501F008A5039 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		B071D1AA1DAB5029008A5039 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -81,6 +80,7 @@
 		B071D1C61DAB54CC008A5039 /* PostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 		B071D1D11DAB6EA3008A5039 /* AdobeCreativeSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKCore.framework; sourceTree = "<group>"; };
 		B071D1D21DAB6EA3008A5039 /* AdobeCreativeSDKImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKImage.framework; sourceTree = "<group>"; };
+		B07CEC8E1DAB747D00CF32A4 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 		B0A58D021DAB3A850004F037 /* Kiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A58D051DAB3A850004F037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0A58D071DAB3A850004F037 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -178,11 +178,11 @@
 				B0A58D0E1DAB3A850004F037 /* LaunchScreen.storyboard */,
 				B071D1801DAB40BB008A5039 /* Const.swift */,
 				B0A58D111DAB3A850004F037 /* Info.plist */,
+				B07CEC8E1DAB747D00CF32A4 /* GoogleService-Info (1).plist */,
 				B0A58D211DAB3DB70004F037 /* Podfile */,
 				B071D1D11DAB6EA3008A5039 /* AdobeCreativeSDKCore.framework */,
 				B071D1D21DAB6EA3008A5039 /* AdobeCreativeSDKImage.framework */,
 				B071D1C21DAB5281008A5039 /* Kiki-Bridging-Header.h */,
-				B071D17E1DAB4039008A5039 /* GoogleService-Info.plist */,
 			);
 			path = Kiki;
 			sourceTree = "<group>";
@@ -263,9 +263,9 @@
 				B0A58D101DAB3A850004F037 /* LaunchScreen.storyboard in Resources */,
 				B0A58D0D1DAB3A850004F037 /* Assets.xcassets in Resources */,
 				B071D1C81DAB54CC008A5039 /* PostTableViewCell.xib in Resources */,
-				B071D17F1DAB4039008A5039 /* GoogleService-Info.plist in Resources */,
 				B0A58D221DAB3DB70004F037 /* Podfile in Resources */,
 				B0A58D0B1DAB3A850004F037 /* Main.storyboard in Resources */,
+				B07CEC8F1DAB747D00CF32A4 /* GoogleService-Info (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
