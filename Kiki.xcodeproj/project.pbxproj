@@ -7,14 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01872E850464FC4E91D89CD6 /* Pods_Kiki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF5792DD1389A2E725A1068 /* Pods_Kiki.framework */; };
+		B071D17F1DAB4039008A5039 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B071D17E1DAB4039008A5039 /* GoogleService-Info.plist */; };
+		B071D1811DAB40BB008A5039 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = B071D1801DAB40BB008A5039 /* Const.swift */; };
+		B071D1941DAB4F83008A5039 /* AdobeCreativeSDKAppLibraryUX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1831DAB4F83008A5039 /* AdobeCreativeSDKAppLibraryUX.framework */; };
+		B071D1951DAB4F83008A5039 /* AdobeCreativeSDKAssetModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1841DAB4F83008A5039 /* AdobeCreativeSDKAssetModel.framework */; };
+		B071D1961DAB4F83008A5039 /* AdobeCreativeSDKAssetUX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1851DAB4F83008A5039 /* AdobeCreativeSDKAssetUX.framework */; };
+		B071D1971DAB4F83008A5039 /* AdobeCreativeSDKBehance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1861DAB4F83008A5039 /* AdobeCreativeSDKBehance.framework */; };
+		B071D1981DAB4F83008A5039 /* AdobeCreativeSDKColor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1871DAB4F83008A5039 /* AdobeCreativeSDKColor.framework */; };
+		B071D1991DAB4F83008A5039 /* AdobeCreativeSDKCommonUX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1881DAB4F83008A5039 /* AdobeCreativeSDKCommonUX.framework */; };
+		B071D19C1DAB4F83008A5039 /* AdobeCreativeSDKLabs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D18B1DAB4F83008A5039 /* AdobeCreativeSDKLabs.framework */; };
+		B071D19D1DAB4F83008A5039 /* AdobeCreativeSDKMarketUX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D18C1DAB4F83008A5039 /* AdobeCreativeSDKMarketUX.framework */; };
+		B071D19E1DAB4F83008A5039 /* AdobeCreativeSDKTypekit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D18D1DAB4F83008A5039 /* AdobeCreativeSDKTypekit.framework */; };
+		B071D19F1DAB4F83008A5039 /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = B071D18E1DAB4F83008A5039 /* license.txt */; };
+		B071D1A01DAB4F83008A5039 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = B071D18F1DAB4F83008A5039 /* readme.txt */; };
+		B071D1A11DAB4F83008A5039 /* ImageSDKCustomizer.app in Resources */ = {isa = PBXBuildFile; fileRef = B071D1931DAB4F83008A5039 /* ImageSDKCustomizer.app */; };
+		B071D1A31DAB4FB5008A5039 /* AdobeCreativeSDKImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B071D18A1DAB4F83008A5039 /* AdobeCreativeSDKImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B071D1A61DAB4FBB008A5039 /* AdobeCreativeSDKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1891DAB4F83008A5039 /* AdobeCreativeSDKCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B071D1A91DAB501F008A5039 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1A81DAB501F008A5039 /* libc++.tbd */; };
+		B071D1AB1DAB5029008A5039 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1AA1DAB5029008A5039 /* libz.tbd */; };
+		B071D1AD1DAB5033008A5039 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1AC1DAB5033008A5039 /* libz.1.2.5.tbd */; };
+		B071D1AF1DAB503E008A5039 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1AE1DAB503E008A5039 /* libsqlite3.0.tbd */; };
+		B071D1B11DAB5046008A5039 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1B01DAB5046008A5039 /* MobileCoreServices.framework */; };
+		B071D1B31DAB504D008A5039 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1B21DAB504D008A5039 /* SystemConfiguration.framework */; };
+		B071D1B51DAB5054008A5039 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1B41DAB5054008A5039 /* Accelerate.framework */; };
+		B071D1B71DAB505D008A5039 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1B61DAB505D008A5039 /* CoreData.framework */; };
+		B071D1B91DAB5064008A5039 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1B81DAB5064008A5039 /* MessageUI.framework */; };
+		B071D1BB1DAB506E008A5039 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1BA1DAB506E008A5039 /* OpenGLES.framework */; };
+		B071D1BD1DAB5075008A5039 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1BC1DAB5075008A5039 /* QuartzCore.framework */; };
+		B071D1BF1DAB507F008A5039 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1BE1DAB507F008A5039 /* StoreKit.framework */; };
+		B071D1C41DAB5498008A5039 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B071D1C31DAB5498008A5039 /* PostData.swift */; };
+		B071D1C71DAB54CC008A5039 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B071D1C51DAB54CC008A5039 /* PostTableViewCell.swift */; };
+		B071D1C81DAB54CC008A5039 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B071D1C61DAB54CC008A5039 /* PostTableViewCell.xib */; };
 		B0A58D061DAB3A850004F037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A58D051DAB3A850004F037 /* AppDelegate.swift */; };
 		B0A58D081DAB3A850004F037 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A58D071DAB3A850004F037 /* ViewController.swift */; };
 		B0A58D0B1DAB3A850004F037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A58D091DAB3A850004F037 /* Main.storyboard */; };
 		B0A58D0D1DAB3A850004F037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A58D0C1DAB3A850004F037 /* Assets.xcassets */; };
 		B0A58D101DAB3A850004F037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A58D0E1DAB3A850004F037 /* LaunchScreen.storyboard */; };
+		B0A58D181DAB3B480004F037 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A58D171DAB3B480004F037 /* LoginViewController.swift */; };
+		B0A58D1A1DAB3B620004F037 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A58D191DAB3B620004F037 /* HomeViewController.swift */; };
+		B0A58D1C1DAB3B740004F037 /* ImageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A58D1B1DAB3B740004F037 /* ImageSelectViewController.swift */; };
+		B0A58D1E1DAB3B860004F037 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A58D1D1DAB3B860004F037 /* PostViewController.swift */; };
+		B0A58D201DAB3B960004F037 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A58D1F1DAB3B960004F037 /* SettingViewController.swift */; };
+		B0A58D221DAB3DB70004F037 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B0A58D211DAB3DB70004F037 /* Podfile */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B071D1A41DAB4FB5008A5039 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B071D1A31DAB4FB5008A5039 /* AdobeCreativeSDKImage.framework in Embed Frameworks */,
+				B071D1A61DAB4FBB008A5039 /* AdobeCreativeSDKCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3699FD52B969DF7B40CF38DC /* Pods-Kiki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kiki.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kiki/Pods-Kiki.release.xcconfig"; sourceTree = "<group>"; };
+		62548AD91A23C90871CC74C5 /* Pods-Kiki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kiki.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kiki/Pods-Kiki.debug.xcconfig"; sourceTree = "<group>"; };
+		8AF5792DD1389A2E725A1068 /* Pods_Kiki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kiki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B071D17E1DAB4039008A5039 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B071D1801DAB40BB008A5039 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		B071D1831DAB4F83008A5039 /* AdobeCreativeSDKAppLibraryUX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKAppLibraryUX.framework; sourceTree = "<group>"; };
+		B071D1841DAB4F83008A5039 /* AdobeCreativeSDKAssetModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKAssetModel.framework; sourceTree = "<group>"; };
+		B071D1851DAB4F83008A5039 /* AdobeCreativeSDKAssetUX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKAssetUX.framework; sourceTree = "<group>"; };
+		B071D1861DAB4F83008A5039 /* AdobeCreativeSDKBehance.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKBehance.framework; sourceTree = "<group>"; };
+		B071D1871DAB4F83008A5039 /* AdobeCreativeSDKColor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKColor.framework; sourceTree = "<group>"; };
+		B071D1881DAB4F83008A5039 /* AdobeCreativeSDKCommonUX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKCommonUX.framework; sourceTree = "<group>"; };
+		B071D1891DAB4F83008A5039 /* AdobeCreativeSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKCore.framework; sourceTree = "<group>"; };
+		B071D18A1DAB4F83008A5039 /* AdobeCreativeSDKImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKImage.framework; sourceTree = "<group>"; };
+		B071D18B1DAB4F83008A5039 /* AdobeCreativeSDKLabs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKLabs.framework; sourceTree = "<group>"; };
+		B071D18C1DAB4F83008A5039 /* AdobeCreativeSDKMarketUX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKMarketUX.framework; sourceTree = "<group>"; };
+		B071D18D1DAB4F83008A5039 /* AdobeCreativeSDKTypekit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKTypekit.framework; sourceTree = "<group>"; };
+		B071D18E1DAB4F83008A5039 /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+		B071D18F1DAB4F83008A5039 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		B071D1931DAB4F83008A5039 /* ImageSDKCustomizer.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = ImageSDKCustomizer.app; sourceTree = "<group>"; };
+		B071D1A81DAB501F008A5039 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		B071D1AA1DAB5029008A5039 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B071D1AC1DAB5033008A5039 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		B071D1AE1DAB503E008A5039 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		B071D1B01DAB5046008A5039 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B071D1B21DAB504D008A5039 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B071D1B41DAB5054008A5039 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		B071D1B61DAB505D008A5039 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B071D1B81DAB5064008A5039 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		B071D1BA1DAB506E008A5039 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B071D1BC1DAB5075008A5039 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B071D1BE1DAB507F008A5039 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B071D1C21DAB5281008A5039 /* Kiki-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Kiki-Bridging-Header.h"; sourceTree = "<group>"; };
+		B071D1C31DAB5498008A5039 /* PostData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		B071D1C51DAB54CC008A5039 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		B071D1C61DAB54CC008A5039 /* PostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 		B0A58D021DAB3A850004F037 /* Kiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A58D051DAB3A850004F037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0A58D071DAB3A850004F037 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +110,12 @@
 		B0A58D0C1DAB3A850004F037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0A58D0F1DAB3A850004F037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0A58D111DAB3A850004F037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0A58D171DAB3B480004F037 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B0A58D191DAB3B620004F037 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B0A58D1B1DAB3B740004F037 /* ImageSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSelectViewController.swift; sourceTree = "<group>"; };
+		B0A58D1D1DAB3B860004F037 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		B0A58D1F1DAB3B960004F037 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		B0A58D211DAB3DB70004F037 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +123,106 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B071D1BF1DAB507F008A5039 /* StoreKit.framework in Frameworks */,
+				B071D1BD1DAB5075008A5039 /* QuartzCore.framework in Frameworks */,
+				B071D1BB1DAB506E008A5039 /* OpenGLES.framework in Frameworks */,
+				B071D1B91DAB5064008A5039 /* MessageUI.framework in Frameworks */,
+				B071D1B71DAB505D008A5039 /* CoreData.framework in Frameworks */,
+				B071D1B51DAB5054008A5039 /* Accelerate.framework in Frameworks */,
+				B071D1B31DAB504D008A5039 /* SystemConfiguration.framework in Frameworks */,
+				B071D1B11DAB5046008A5039 /* MobileCoreServices.framework in Frameworks */,
+				B071D1AF1DAB503E008A5039 /* libsqlite3.0.tbd in Frameworks */,
+				B071D1AD1DAB5033008A5039 /* libz.1.2.5.tbd in Frameworks */,
+				B071D1AB1DAB5029008A5039 /* libz.tbd in Frameworks */,
+				B071D1A91DAB501F008A5039 /* libc++.tbd in Frameworks */,
+				B071D1971DAB4F83008A5039 /* AdobeCreativeSDKBehance.framework in Frameworks */,
+				B071D19E1DAB4F83008A5039 /* AdobeCreativeSDKTypekit.framework in Frameworks */,
+				B071D1951DAB4F83008A5039 /* AdobeCreativeSDKAssetModel.framework in Frameworks */,
+				B071D1981DAB4F83008A5039 /* AdobeCreativeSDKColor.framework in Frameworks */,
+				01872E850464FC4E91D89CD6 /* Pods_Kiki.framework in Frameworks */,
+				B071D1991DAB4F83008A5039 /* AdobeCreativeSDKCommonUX.framework in Frameworks */,
+				B071D1961DAB4F83008A5039 /* AdobeCreativeSDKAssetUX.framework in Frameworks */,
+				B071D19D1DAB4F83008A5039 /* AdobeCreativeSDKMarketUX.framework in Frameworks */,
+				B071D19C1DAB4F83008A5039 /* AdobeCreativeSDKLabs.framework in Frameworks */,
+				B071D1941DAB4F83008A5039 /* AdobeCreativeSDKAppLibraryUX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3433B9163D2AAF6F96080A39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B071D1BE1DAB507F008A5039 /* StoreKit.framework */,
+				B071D1BC1DAB5075008A5039 /* QuartzCore.framework */,
+				B071D1BA1DAB506E008A5039 /* OpenGLES.framework */,
+				B071D1B81DAB5064008A5039 /* MessageUI.framework */,
+				B071D1B61DAB505D008A5039 /* CoreData.framework */,
+				B071D1B41DAB5054008A5039 /* Accelerate.framework */,
+				B071D1B21DAB504D008A5039 /* SystemConfiguration.framework */,
+				B071D1B01DAB5046008A5039 /* MobileCoreServices.framework */,
+				B071D1AE1DAB503E008A5039 /* libsqlite3.0.tbd */,
+				B071D1AC1DAB5033008A5039 /* libz.1.2.5.tbd */,
+				B071D1AA1DAB5029008A5039 /* libz.tbd */,
+				B071D1A81DAB501F008A5039 /* libc++.tbd */,
+				8AF5792DD1389A2E725A1068 /* Pods_Kiki.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B071D1821DAB4F83008A5039 /* AdobeCreativeSDKDynamicFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B071D1831DAB4F83008A5039 /* AdobeCreativeSDKAppLibraryUX.framework */,
+				B071D1841DAB4F83008A5039 /* AdobeCreativeSDKAssetModel.framework */,
+				B071D1851DAB4F83008A5039 /* AdobeCreativeSDKAssetUX.framework */,
+				B071D1861DAB4F83008A5039 /* AdobeCreativeSDKBehance.framework */,
+				B071D1871DAB4F83008A5039 /* AdobeCreativeSDKColor.framework */,
+				B071D1881DAB4F83008A5039 /* AdobeCreativeSDKCommonUX.framework */,
+				B071D1891DAB4F83008A5039 /* AdobeCreativeSDKCore.framework */,
+				B071D18A1DAB4F83008A5039 /* AdobeCreativeSDKImage.framework */,
+				B071D18B1DAB4F83008A5039 /* AdobeCreativeSDKLabs.framework */,
+				B071D18C1DAB4F83008A5039 /* AdobeCreativeSDKMarketUX.framework */,
+				B071D18D1DAB4F83008A5039 /* AdobeCreativeSDKTypekit.framework */,
+				B071D18E1DAB4F83008A5039 /* license.txt */,
+				B071D18F1DAB4F83008A5039 /* readme.txt */,
+				B071D1901DAB4F83008A5039 /* tools */,
+			);
+			path = AdobeCreativeSDKDynamicFrameworks;
+			sourceTree = "<group>";
+		};
+		B071D1901DAB4F83008A5039 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				B071D1911DAB4F83008A5039 /* MacOS */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		B071D1911DAB4F83008A5039 /* MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				B071D1921DAB4F83008A5039 /* ImageSDKCustomizer */,
+			);
+			path = MacOS;
+			sourceTree = "<group>";
+		};
+		B071D1921DAB4F83008A5039 /* ImageSDKCustomizer */ = {
+			isa = PBXGroup;
+			children = (
+				B071D1931DAB4F83008A5039 /* ImageSDKCustomizer.app */,
+			);
+			path = ImageSDKCustomizer;
+			sourceTree = "<group>";
+		};
 		B0A58CF91DAB3A850004F037 = {
 			isa = PBXGroup;
 			children = (
 				B0A58D041DAB3A850004F037 /* Kiki */,
 				B0A58D031DAB3A850004F037 /* Products */,
+				C3730FFCAE408BBDBAB9E7BB /* Pods */,
+				3433B9163D2AAF6F96080A39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +238,35 @@
 			isa = PBXGroup;
 			children = (
 				B0A58D051DAB3A850004F037 /* AppDelegate.swift */,
-				B0A58D071DAB3A850004F037 /* ViewController.swift */,
 				B0A58D091DAB3A850004F037 /* Main.storyboard */,
+				B0A58D071DAB3A850004F037 /* ViewController.swift */,
+				B0A58D1F1DAB3B960004F037 /* SettingViewController.swift */,
+				B0A58D1D1DAB3B860004F037 /* PostViewController.swift */,
+				B0A58D1B1DAB3B740004F037 /* ImageSelectViewController.swift */,
+				B0A58D191DAB3B620004F037 /* HomeViewController.swift */,
+				B0A58D171DAB3B480004F037 /* LoginViewController.swift */,
+				B071D1C31DAB5498008A5039 /* PostData.swift */,
+				B071D1C51DAB54CC008A5039 /* PostTableViewCell.swift */,
+				B071D1C61DAB54CC008A5039 /* PostTableViewCell.xib */,
 				B0A58D0C1DAB3A850004F037 /* Assets.xcassets */,
 				B0A58D0E1DAB3A850004F037 /* LaunchScreen.storyboard */,
+				B071D1801DAB40BB008A5039 /* Const.swift */,
 				B0A58D111DAB3A850004F037 /* Info.plist */,
+				B0A58D211DAB3DB70004F037 /* Podfile */,
+				B071D1C21DAB5281008A5039 /* Kiki-Bridging-Header.h */,
+				B071D17E1DAB4039008A5039 /* GoogleService-Info.plist */,
+				B071D1821DAB4F83008A5039 /* AdobeCreativeSDKDynamicFrameworks */,
 			);
 			path = Kiki;
+			sourceTree = "<group>";
+		};
+		C3730FFCAE408BBDBAB9E7BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62548AD91A23C90871CC74C5 /* Pods-Kiki.debug.xcconfig */,
+				3699FD52B969DF7B40CF38DC /* Pods-Kiki.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +276,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0A58D141DAB3A850004F037 /* Build configuration list for PBXNativeTarget "Kiki" */;
 			buildPhases = (
+				AAAB603750B708BF9E6AE949 /* [CP] Check Pods Manifest.lock */,
 				B0A58CFE1DAB3A850004F037 /* Sources */,
 				B0A58CFF1DAB3A850004F037 /* Frameworks */,
 				B0A58D001DAB3A850004F037 /* Resources */,
+				388049F866775421822984D8 /* [CP] Embed Pods Frameworks */,
+				D4D2CF68CA16E82207F0B2B5 /* [CP] Copy Pods Resources */,
+				B071D1A41DAB4FB5008A5039 /* Embed Frameworks */,
+				B071D1A71DAB5000008A5039 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -123,21 +333,96 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B071D19F1DAB4F83008A5039 /* license.txt in Resources */,
 				B0A58D101DAB3A850004F037 /* LaunchScreen.storyboard in Resources */,
 				B0A58D0D1DAB3A850004F037 /* Assets.xcassets in Resources */,
+				B071D1C81DAB54CC008A5039 /* PostTableViewCell.xib in Resources */,
+				B071D17F1DAB4039008A5039 /* GoogleService-Info.plist in Resources */,
+				B071D1A01DAB4F83008A5039 /* readme.txt in Resources */,
+				B0A58D221DAB3DB70004F037 /* Podfile in Resources */,
 				B0A58D0B1DAB3A850004F037 /* Main.storyboard in Resources */,
+				B071D1A11DAB4F83008A5039 /* ImageSDKCustomizer.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		388049F866775421822984D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kiki/Pods-Kiki-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAAB603750B708BF9E6AE949 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B071D1A71DAB5000008A5039 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/AdobeCreativeSDKCore.framework/strip-frameworks.sh\"";
+		};
+		D4D2CF68CA16E82207F0B2B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kiki/Pods-Kiki-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B0A58CFE1DAB3A850004F037 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A58D1E1DAB3B860004F037 /* PostViewController.swift in Sources */,
+				B071D1C41DAB5498008A5039 /* PostData.swift in Sources */,
+				B0A58D181DAB3B480004F037 /* LoginViewController.swift in Sources */,
 				B0A58D081DAB3A850004F037 /* ViewController.swift in Sources */,
 				B0A58D061DAB3A850004F037 /* AppDelegate.swift in Sources */,
+				B0A58D1C1DAB3B740004F037 /* ImageSelectViewController.swift in Sources */,
+				B071D1811DAB40BB008A5039 /* Const.swift in Sources */,
+				B071D1C71DAB54CC008A5039 /* PostTableViewCell.swift in Sources */,
+				B0A58D201DAB3B960004F037 /* SettingViewController.swift in Sources */,
+				B0A58D1A1DAB3B620004F037 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,23 +533,35 @@
 		};
 		B0A58D151DAB3A850004F037 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62548AD91A23C90871CC74C5 /* Pods-Kiki.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Kiki/AdobeCreativeSDKDynamicFrameworks",
+				);
 				INFOPLIST_FILE = Kiki/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.Kiki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Kiki/Kiki-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		B0A58D161DAB3A850004F037 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3699FD52B969DF7B40CF38DC /* Pods-Kiki.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Kiki/AdobeCreativeSDKDynamicFrameworks",
+				);
 				INFOPLIST_FILE = Kiki/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.Kiki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Kiki/Kiki-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -287,6 +584,7 @@
 				B0A58D161DAB3A850004F037 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
