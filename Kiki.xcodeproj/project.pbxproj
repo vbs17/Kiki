@@ -25,8 +25,10 @@
 		B071D1C41DAB5498008A5039 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B071D1C31DAB5498008A5039 /* PostData.swift */; };
 		B071D1C71DAB54CC008A5039 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B071D1C51DAB54CC008A5039 /* PostTableViewCell.swift */; };
 		B071D1C81DAB54CC008A5039 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B071D1C61DAB54CC008A5039 /* PostTableViewCell.xib */; };
-		B071D1D31DAB6EA3008A5039 /* AdobeCreativeSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1D11DAB6EA3008A5039 /* AdobeCreativeSDKCore.framework */; };
 		B071D1D41DAB6EA3008A5039 /* AdobeCreativeSDKImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1D21DAB6EA3008A5039 /* AdobeCreativeSDKImage.framework */; };
+		B071D1D51DAB6F25008A5039 /* AdobeCreativeSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1D11DAB6EA3008A5039 /* AdobeCreativeSDKCore.framework */; };
+		B071D1D61DAB6F25008A5039 /* AdobeCreativeSDKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1D11DAB6EA3008A5039 /* AdobeCreativeSDKCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B071D1D81DAB6F29008A5039 /* AdobeCreativeSDKImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1D21DAB6EA3008A5039 /* AdobeCreativeSDKImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B0A58D061DAB3A850004F037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A58D051DAB3A850004F037 /* AppDelegate.swift */; };
 		B0A58D081DAB3A850004F037 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A58D071DAB3A850004F037 /* ViewController.swift */; };
 		B0A58D0B1DAB3A850004F037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A58D091DAB3A850004F037 /* Main.storyboard */; };
@@ -47,6 +49,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				B071D1D81DAB6F29008A5039 /* AdobeCreativeSDKImage.framework in Embed Frameworks */,
+				B071D1D61DAB6F25008A5039 /* AdobeCreativeSDKCore.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,9 +104,9 @@
 				B071D1BF1DAB507F008A5039 /* StoreKit.framework in Frameworks */,
 				B071D1BD1DAB5075008A5039 /* QuartzCore.framework in Frameworks */,
 				B071D1BB1DAB506E008A5039 /* OpenGLES.framework in Frameworks */,
+				B071D1D51DAB6F25008A5039 /* AdobeCreativeSDKCore.framework in Frameworks */,
 				B071D1B91DAB5064008A5039 /* MessageUI.framework in Frameworks */,
 				B071D1B71DAB505D008A5039 /* CoreData.framework in Frameworks */,
-				B071D1D31DAB6EA3008A5039 /* AdobeCreativeSDKCore.framework in Frameworks */,
 				B071D1B51DAB5054008A5039 /* Accelerate.framework in Frameworks */,
 				B071D1B31DAB504D008A5039 /* SystemConfiguration.framework in Frameworks */,
 				B071D1B11DAB5046008A5039 /* MobileCoreServices.framework in Frameworks */,
