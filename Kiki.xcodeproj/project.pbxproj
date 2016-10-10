@@ -25,8 +25,8 @@
 		B071D1C41DAB5498008A5039 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B071D1C31DAB5498008A5039 /* PostData.swift */; };
 		B071D1C71DAB54CC008A5039 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B071D1C51DAB54CC008A5039 /* PostTableViewCell.swift */; };
 		B071D1C81DAB54CC008A5039 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B071D1C61DAB54CC008A5039 /* PostTableViewCell.xib */; };
-		B071D1CB1DAB6D6A008A5039 /* AdobeCreativeSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1C91DAB6D6A008A5039 /* AdobeCreativeSDKCore.framework */; };
-		B071D1CC1DAB6D6A008A5039 /* AdobeCreativeSDKImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1CA1DAB6D6A008A5039 /* AdobeCreativeSDKImage.framework */; };
+		B071D1D31DAB6EA3008A5039 /* AdobeCreativeSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1D11DAB6EA3008A5039 /* AdobeCreativeSDKCore.framework */; };
+		B071D1D41DAB6EA3008A5039 /* AdobeCreativeSDKImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B071D1D21DAB6EA3008A5039 /* AdobeCreativeSDKImage.framework */; };
 		B0A58D061DAB3A850004F037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A58D051DAB3A850004F037 /* AppDelegate.swift */; };
 		B0A58D081DAB3A850004F037 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A58D071DAB3A850004F037 /* ViewController.swift */; };
 		B0A58D0B1DAB3A850004F037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A58D091DAB3A850004F037 /* Main.storyboard */; };
@@ -75,8 +75,8 @@
 		B071D1C31DAB5498008A5039 /* PostData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		B071D1C51DAB54CC008A5039 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		B071D1C61DAB54CC008A5039 /* PostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
-		B071D1C91DAB6D6A008A5039 /* AdobeCreativeSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKCore.framework; sourceTree = "<group>"; };
-		B071D1CA1DAB6D6A008A5039 /* AdobeCreativeSDKImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKImage.framework; sourceTree = "<group>"; };
+		B071D1D11DAB6EA3008A5039 /* AdobeCreativeSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKCore.framework; sourceTree = "<group>"; };
+		B071D1D21DAB6EA3008A5039 /* AdobeCreativeSDKImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKImage.framework; sourceTree = "<group>"; };
 		B0A58D021DAB3A850004F037 /* Kiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A58D051DAB3A850004F037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0A58D071DAB3A850004F037 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 				B071D1BB1DAB506E008A5039 /* OpenGLES.framework in Frameworks */,
 				B071D1B91DAB5064008A5039 /* MessageUI.framework in Frameworks */,
 				B071D1B71DAB505D008A5039 /* CoreData.framework in Frameworks */,
-				B071D1CB1DAB6D6A008A5039 /* AdobeCreativeSDKCore.framework in Frameworks */,
+				B071D1D31DAB6EA3008A5039 /* AdobeCreativeSDKCore.framework in Frameworks */,
 				B071D1B51DAB5054008A5039 /* Accelerate.framework in Frameworks */,
 				B071D1B31DAB504D008A5039 /* SystemConfiguration.framework in Frameworks */,
 				B071D1B11DAB5046008A5039 /* MobileCoreServices.framework in Frameworks */,
@@ -110,7 +110,7 @@
 				B071D1AD1DAB5033008A5039 /* libz.1.2.5.tbd in Frameworks */,
 				B071D1AB1DAB5029008A5039 /* libz.tbd in Frameworks */,
 				B071D1A91DAB501F008A5039 /* libc++.tbd in Frameworks */,
-				B071D1CC1DAB6D6A008A5039 /* AdobeCreativeSDKImage.framework in Frameworks */,
+				B071D1D41DAB6EA3008A5039 /* AdobeCreativeSDKImage.framework in Frameworks */,
 				01872E850464FC4E91D89CD6 /* Pods_Kiki.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,9 +175,9 @@
 				B071D1801DAB40BB008A5039 /* Const.swift */,
 				B0A58D111DAB3A850004F037 /* Info.plist */,
 				B0A58D211DAB3DB70004F037 /* Podfile */,
+				B071D1D11DAB6EA3008A5039 /* AdobeCreativeSDKCore.framework */,
+				B071D1D21DAB6EA3008A5039 /* AdobeCreativeSDKImage.framework */,
 				B071D1C21DAB5281008A5039 /* Kiki-Bridging-Header.h */,
-				B071D1C91DAB6D6A008A5039 /* AdobeCreativeSDKCore.framework */,
-				B071D1CA1DAB6D6A008A5039 /* AdobeCreativeSDKImage.framework */,
 				B071D17E1DAB4039008A5039 /* GoogleService-Info.plist */,
 			);
 			path = Kiki;
