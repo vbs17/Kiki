@@ -99,7 +99,7 @@ class HomeViewController: UIViewController,UITableViewDataSource, UITableViewDel
         let touch = event.allTouches()?.first
         let point = touch!.locationInView(self.tableView)
         let indexPath = tableView.indexPathForRowAtPoint(point)
-        
+        //数ある中から選ぶ
         let postData = postArray[indexPath!.row]
         
         if let uid = FIRAuth.auth()?.currentUser?.uid {
@@ -125,6 +125,7 @@ class HomeViewController: UIViewController,UITableViewDataSource, UITableViewDel
             let post = ["caption": caption!, "image": imageString!, "name": name!, "time": time, "likes": likes]
             let postRef = FIRDatabase.database().reference().child(CommonConst.PostPATH)
             postRef.child(postData.id!).setValue(post)
+             //辞書を作成してFirebaseに保存する どこで古いの消した？FireBaseの性質上しなくても良いらしい
         }
     }
 
